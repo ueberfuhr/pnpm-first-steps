@@ -1,5 +1,7 @@
 # PNPM sample
 
+This repository is based on [this tutorial](https://blog.nrwl.io/setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx-bc5d97258a7e).
+
 ## Use the project
 
 ```bash
