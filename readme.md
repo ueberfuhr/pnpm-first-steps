@@ -12,4 +12,7 @@ pnpm --filter shared-ui build
 pnpm add --filter shared-ui typescript -D
 # Add dependency between app and package
 pnpm add shared-ui --filter my-remix-app --workspace
+# Build all projects
+pnpm run -r build
+pnpm run --parallel -r build
 ```
