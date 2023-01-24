@@ -6,7 +6,8 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@remix-run/node": "^1.11.0",
@@ -18,14 +19,23 @@
     "shared-ui": "workspace:*"
   },
   "devDependencies": {
+    "@nrwl/devkit": "^15.6.1",
+    "@nrwl/eslint-plugin-nx": "^15.6.1",
     "@remix-run/dev": "^1.11.0",
     "@remix-run/eslint-config": "^1.11.0",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
-    "eslint": "^8.27.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.0.0",
+    "nx": ">= 14 <= 16",
     "typescript": "^4.8.4"
   },
   "engines": {
     "node": ">=14"
+  },
+  "nx": {
+    "tags": [
+      "type:ui"
+    ]
   }
 }
