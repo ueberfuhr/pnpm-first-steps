@@ -8,6 +8,8 @@ Simply, we could create a NX monorepo workspace with Angular app and PNPM using
 npx create-nx-workspace --preset=angular-monorepo --pm=pnpm
 ```
 
+Then, we can use the [Nx Generators](https://nx.dev/packages/angular/generators) to generate apps, libs...
+
 ## PNPM
 
 - `node_modules`
